@@ -1,4 +1,3 @@
-my
 <!doctype html>
 <html>
 <head>
