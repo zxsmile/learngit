@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<base href="javascript:;">
+  <meta charset="utf-8">
+  <title>首页-东风雪铁龙世嘉汽车有限公司</title>
+  <meta name="keywords" content="">
+  <meta name="decription" content="">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<style>
+body{
+width:0,auto;
+background-color:#FFFFF0;
+}
+h1{
+text-shadow:2px 2px red;
+text-indent:150px;
+font-size:40px;
+font-family:times;
+}
+.row{
+  display:flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  }
+  .row1{
+  display:flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  border:solid 1px;
+  border-color:#A9A9A9;
+  width:100%;
+  margin:auto;
+  border-radius:25px;
+  padding:5px;
+  }
+.column{
+  display:flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  background-color:#FAFAD2;
+  width:50%;
+  justify-content:space-around;
+  align-items: flex-start;
+  }
+.box1{
+  width:100%;
+  margin:10px;
+  }
+.column p{
+  margin:0px;
+  width:90%;
+  padding:10px;
+  text-indent:20px;
+}
+h2{
+color:red;
+}
+.ul1
+{
+ list-style-type:none;
+ border:inset;
+ margin:0 auto;
+ padding:0;
+ overflow:hidden;
+ background-color:green;
+ width:100%;
+}
+.li1{
+float:left;
+}
+li a{
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+width:180px;
+}
+li a:hover
+{
+background-color:#8FBC8F;
+}
+.two{
+height:30px;
+background-color:#6495ED;
+}
+.one{
+    text-align:right;
+	margin-bottom:10px;
+	}
+.three{
+text-indent:20px;
+color:purple;
+}
+span{
+padding:80px;
+}
+</style>
+<body>
+<h1><img src="D://511332fa3e9e70e2.jpg" alt="图片" width="100px" height="50px"></img>&nbsp;&nbsp;东风雪铁龙有限公司</h1>
+<div class="one">
+                <form name="input" action="https://www./">
+			    <input name="" type="text" placeholder="请输入搜索关键词"/>
+				<input name="" type="submit" value="搜索"/>
+			</form>
+</div>
+<div>
+			<ul class="ul1">
+			<li class="li1"><a title="首页" href=""><b>首页</b></a></li>
+			<li class="li1"><a title="车型展厅" href=""><b>车型展厅</b></a></li>
+			<li class="li1"><a title="购车助手" href=""><b>购车助手</b></a></li>
+			<li class="li1"><a title="车主服务" href=""><b>车主服务</b></a></li>
+			<li class="li1"><a title="关于我们" href=""><b>关于我们</b></a></li>
+			<li class="li1"><a title="联系我们" href=""><b>联系我们</b></a></li>
+			</ul>
+</div>	
+<div style="text-align:center;">
+			<img src="D://89b709933c40b64e.jpg" alt="图片" width="1500px" height="600px"></img>
+</div>
+<div style="background-color:#FAFAD2">
+<h2>参考参数</h2>
+<div class="row1">
+<span><b>品牌:</b>&nbsp;&nbsp;&nbsp;&nbsp;雪铁龙世嘉<br>
+<hr>
+<b>加速时间:</b>&nbsp;&nbsp;12.6秒(0-100km/h)<br>
+<hr>
+<b>驱动方式:</b>&nbsp;&nbsp;前轮驱动<br>
+<hr>
+<b>制动方式:</b>&nbsp;&nbsp;四轮碟刹<br>
+<hr>
+<b>轴距:</b>&nbsp;&nbsp;&nbsp;&nbsp;2610毫米<br>
+<hr>
+</span>
+<span>
+<b>生产厂商:</b>&nbsp;&nbsp;东风雪铁龙<br>
+<hr>
+<b>油耗:</b>&nbsp;&nbsp;&nbsp;&nbsp;6.0升/百公里<br>
+<hr>
+<b>车型尺寸:</b>&nbsp;&nbsp;4.556米 1.773米 1.486米<br>
+<hr>
+<b>车身重量:</b>&nbsp;&nbsp;1270千克<br>
+<hr>
+<b>引擎类型:</b>&nbsp;&nbsp;1.6L 16V电子节气门TU5JP4发动机<br>
+<hr>
+</span>
+<span>
+<b>参考价格:</b>&nbsp;&nbsp;11.8万元<br>
+<hr>
+<b>最高时速:</b>&nbsp;&nbsp;185km/h<br>
+<hr>
+<b>行李舱容积:</b>&nbsp;&nbsp;385升<br>
+<hr>
+<b>油箱容积:</b>&nbsp;&nbsp;60升<br>
+<hr>
+<b>标准座位数:</b>&nbsp;&nbsp;6人<br>
+<hr>
+</span>
+</div>
+</div>
+<div class="row">			
+<div class="column">
+<div class="box1">
+    <h2>品牌简介</h2>
+       <p>世嘉(C-QUATRE)是东风雪铁龙出击中高端两厢车市场的利器。自发布之后，世嘉(C-QUATRE)的欧尚设计、创新科技和冠军品质。
+	   </p>
+       <p>2011年，东风雪铁龙世嘉带着冠军的光环，对品牌理念进行了全新演绎—— “冠军是一种生活态度”。谁说冠军一定要上赛场？拥有乐观的精神，热爱并追求美好的生活，努力在自己喜欢的领域做到最好，这就是一种冠军的生活态度。
+       </p>
+       <p>东风雪铁龙世嘉秉承纯正的WRC赛车基因、卓越的“WRC六冠王”冠军品质，已然成为国内中级车市的佼佼者。同样，世嘉的用户也具有鲜明的群体特征：他们是一群热爱生活、乐于分享快乐、总是努力在自己喜欢的领域做到最好的乐活群体。
+       </p>
+</div>
+<div class="box1">
+    <h2>系列介绍</h2>
+       <p>世嘉 [1]  前脸造型充满活力，镀铬的双人字标骄傲彰显雪铁龙品牌特征，极富表现力。发动机舱盖线条清晰有力，飞去来器型前大灯与发动机盖和车身两侧相呼应。尾部造型线条感十足，动如静，静亦动。独具匠心的后尾灯与车尾浑然天成，勾勒出流畅的尾部线条，更与侧后窗巧妙组合形成张力十足的雪铁龙品牌双人字标造型。整车给人以“静如处子、动若脱兔”的感觉。　东风雪铁龙世嘉配备了同样在凯旋上使用的2.0L 16V发动机，采用VVT可变气门正时技术，可迸发出最大功率为 108 KW的强大马力，最大扭矩可达到200NM。
+       </p>
+</div>
+<div class="box1" >
+    <h2>外观</h2>
+       <p>东风雪铁龙世嘉流线型车身圆润饱满，风阻系数达到出色的0.31，不仅拥有完美造型风格，同时也拥有效降低车辆行驶时的风噪，并且降低燃油消耗和有害气体的排放。独具匠心的后尾灯与车尾浑然天成，勾勒出流畅的尾部线条，更与侧后窗巧妙组合形成张力十足的雪铁龙品牌双人字标造型。东风雪铁龙世嘉配备了强大马力，最大扭矩可达到200NM，在同级别车型中，动力表现傲视群雄。配合采用保时捷Tiptronic技术的手自一体变速箱，带来车随心动，人车合一的驾乘体验。1.6L 16V发动机高效、节能，90KM等速油耗仅为6.0升。同时，为了迎合中国消费群体的价值理念，世嘉三厢版也在2009年4月的上海车展上高调亮相并在同年5月
+          上市。世嘉三厢有2种动力总成(1.6L和2.0L)和3个装备级别(时尚型、舒适型、豪华型)。与“最漂亮的两厢车”世嘉一脉相承，世嘉三厢充分吸收了C4家族车型的设计精髓、采用雪铁龙最新设计元素并结合了中国消费者喜好的含蓄审美观，流畅、和谐的造型不仅透着时尚动感，还隐含着丝丝优雅和沉稳。
+       </p>
+</div>
+<div class="box1">
+    <h2>内饰空间</h2>
+	   <p><b>前排驾驶员座椅：</b>具有三向调节及手动腰部支撑调节功能，后排座椅都可1/3—2/3折叠并采用“防潜滑功能”的坐垫设计并搭配两个可收缩式头枕，所有座椅均采用Twist.防下沉系统。舒适的座椅
+		</p>
+		<p><b>多样化的储物空间：</b>手套盒、车门箱、饮料架、前排乘客座位前的抽屉、前座椅后面的网兜，将为驾乘者营造出一个雅致温馨、无忧舒适的车内空间，空间感比较出色。
+		</p>
+</div>
+<div class="box1">
+	<h2>亮点设置</h2>
+			 <p><b>中央集控式方向盘便捷安全：</b>全球首创的中央固定集控式方向盘操控平稳，行驶中无需让手离开方向盘，即可轻松完成驾驶辅助(如定速巡航、限速器)与舒适(如音响系统、蓝牙以及选择控制系统)操作，中央集控式方向盘内有符合人体形状的气囊，更加便捷与安全。
+			 </p>
+             <p><b>感光自适应组合仪表盘清晰：</b>时尚东风雪铁龙世嘉配备的感光自适应组合仪表盘，采用半透明的数据显示，驾驶版面包括速度的所有必要信息，表盘布局对光线捕捉十分灵敏，显示对比可根据光线迅速调整以提供清晰的信息。
+             </p>
+	         <p><b>定速巡航、限速器安全可靠：</b>定速巡航系统可以使世嘉在高速公路上行驶时，实现设定车速自动巡航行驶，减少长时间匀速行驶带来的枯燥和疲劳感，还能达到节油节能的效果；限速器则为安全行驶默默地设置了一个安全速度保证线，除了保障驾乘者的人身安全之外，还降低了驾驶者无意间违反道路交通法规的风险。更为精巧的是，定速巡航和限速器的控制按键都在中央固定集控式方向盘上，操作异常便捷，为车主带来“一切尽在掌握”的尊贵感受。
+             </p>
+</div>
+<div class="box1">
+	<h2>安全防护</h2>
+			 <p>基于C4 Coupe开发的C4 WRC在2007赛季中与神话车手勒布的完美配合夺得8个分站冠军并摘得WRC年度车手总冠军，借着C4车型灵敏的转向机构、精良的悬架组件和卓越的的底盘等优势C4 WRC在过弯和各种复杂的路面中有出超乎完美的车身稳定性，底盘的杰出直接提升了车辆在安全方面的表现，而严酷考验让我们相信基于同样底盘设计的世嘉也拥有值得信赖的冠军品质。而出于对安全的更多关注，世嘉在主、被动安全方面的设计和配备也使得它变的更加沉稳坚固。“太空舱”设计
+			 </p>
+			 <p>出于对高品质安全的注重和追求，东风雪铁龙世嘉采用 “太空舱”安全设计，拥有整体式高强度吸能车身结构，所有的车身覆盖件为镀锌高强度钢板，并通过塑钢吸能翼子板等多处碰撞吸能装置和加强梁等设计使整车形成环形网状保护，辅之前、侧双安全气囊的装备使驾乘人员仿佛置身于一个坚固而又多重保护的“舱体”中安全而又安心。出于同样的安全设计，在NCAP碰撞中雪铁龙C4荣获了五星评定和35分(满分37分)高分
+			 </p>
+		     <p><b>出色的行人保护：</b>东风雪铁龙世嘉对行人安全也给予特别关注，车型的设计理念都在于最大程度地减轻与行人发生碰撞的后果。车辆前端上下部分设有碰撞吸能件和塑钢翼子板，在发生严重碰撞时，圆弧型车头首先接触到行人的小腿，将行人挑起倒向发动机罩，通过有效的缓冲和吸能保护被撞行人避免轧伤。而在NCAP碰撞中，C4的行人碰撞测试的表现非常出色，摘得三星奖(最高四星)。
+             </p>
+			<p><b>“汽车安全终极装备”ESP：</b>安全不仅要做到保护还要做到有效的避免危险，为此，在已经配备了多种制动安全设备的情况下，世嘉还在部分车型上配备了被称为汽车安全终极装备的ESP电子稳定程序。 ESP对弯道或紧急避让中出现侧滑和甩尾特别敏感，能够迅速识别出这种危险情况并且反应快如闪电，精确地干预制动方式，使车辆安全地行驶在正确的轨迹上并防止车辆侧滑。
+			</p>
+			<p><b>智能安全配备：</b>即为提升使用的便利性，也为提升安全性，东风雪铁龙世嘉全车系配备Bosch的4点固定倒车雷达。此外，电脑的智能控制使世嘉行驶过程中还拥有自动落锁功能，然而相比其它车辆自动落锁功能更为安全的是当发生碰撞时通过智能电脑的诊断还可实现自动解锁。　
+			</p>
+</div>
+</div>
+<div class="column">
+<div>
+<h2>新闻动态</h2>
+			<h3><a title="因你不同，东风雪铁龙首款互联网SUV云逸北京车展中国首秀" href="" style="text-decoration:none">因你不同，东风雪铁龙首款互联网SUV云逸北京车展中国首秀</a><h3>
+			<p style="text-align:right">2018年4月25日</p>
+			<img src="D://5ae05cf3c59f5.jpg" alt="图片" width="600px" height="400px">
+			<p class="three">今天上午，第十五届北京国际汽车展览会正式开幕，雪铁龙&东风雪铁龙展台精彩纷呈。东风雪铁龙正式对外发布了品牌主张 "INSPIRED BY YOU" 的中文名“因你不同”；C4 AIRCROSS中国首秀，并公布中文命名：云逸，这也是东风雪铁龙首款搭载“斑马智行”系统的合资互联网汽车。
+			</p>
+</div>	
+				
+<div>
+			<h2>相关汽车</h2>
+			<div class="column">
+			<div style="text-align:center">
+			<img src="D://f31fbe096b63f6241356c1e38544ebf81b4ca3c3.jpg" alt="图片" width="500px" height="340px"></img>
+			<p><a title="捷达王" href="" >捷达王</a></p>
+			</div>
+			<div style="text-align:center">
+			<img src="D://1c950a7b02087bf4e47d57e5f2d3572c11dfcf2d.jpg" alt="图片" width="500px" height="340px"></img>
+			<p><a title="雪铁龙survolt" href="">雪铁龙survolt</a></p>
+			</div>
+			<div style="text-align:center">
+			<img src="https://ss0.bdstatic.com/-0U0bnSm1A5BphGlnYG/tam-ogel/74ba68c9dc49c27e7cb1b925a42949a4_367_252.jpg" alt="图片" width="500px" height="340px"></img>
+			<p><a title="新朗逸" href="">新朗逸</a></p>
+			</div>
+			</div>
+</div>
+			<div>
+			<h2 style="text-align:left">参考资料</h2>
+			<p style="text-align:left"><a title="雪铁龙世嘉车险报价" href="" style="text-decoration:none">1.雪铁龙世嘉车险报价</a>-中国汽车网[引用日期2013-06-04]</p>
+			<p style="text-align:left"><a title="东风雪铁龙世嘉系列  " href="" style="text-decoration:none">2.东风雪铁龙世嘉系列</a>-东风雪铁龙．2013-05-29[引用日期2013-05-29]</p>
+			<p style="text-align:left" ><a title="全新世嘉" href="" style="text-decoration:none">3.全新世嘉</a></p>
+			<p style="text-align:left"><a title="雪铁龙世嘉报价、参数及图片 " href="" style="text-decoration:none">4.雪铁龙世嘉报价、参数及图片</a>-东风雪铁龙[引用日期2014-01-23]</p>
+			</div>
+</div>
+</div>
+<div>
+<div class="two">
+		
+		<p style="text-align:center">版权所有 Copyright(C)2009-2012 东风雪铁龙世嘉有限公司</p>
+</div>
+</body>
+</html>
