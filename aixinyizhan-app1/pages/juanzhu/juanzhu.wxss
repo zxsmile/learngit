@@ -1,0 +1,17 @@
+@import "../template3/template3.wxss";
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.head-image{
+width:100%;
+height:464rpx;
+margin-top: 0;
+}
+
+.oo{
+  display: flex;
+  flex-direction: column;
+}
+  

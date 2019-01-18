@@ -1,0 +1,51 @@
+
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="cc">
+  <image class="aa" src="/images/name.jpg"></image>
+  <input class="zz" placeholder="姓名" type="text" name="name" value="{{name}}"></input>
+</view>
+<view class="cc">
+  <image class="aa" src="/images/phone.jfif"></image>
+  <input class="zz" placeholder="手机号码" type="number" name="phone" value="{{phone}}"></input>
+</view>
+<view class="cc">
+  <image class="aa" src="/images/address.jpg"></image>
+  <input class="zz" placeholder="详细地址" type="text" name="address" value="{{address}}"></input>
+</view>
+<view class="cc">
+  <image class="aa" src="/images/fama.jpg"></image>
+  <input class="zz" placeholder="预估重量" type="text" name="fama" value="{{fama}}"></input>
+</view>
+<view class="cc">
+  <image class="aa" src="/images/time.png"></image>
+  <input class="zz" placeholder="预约具体上门时间" type="number" name="time" value="{{time}}"></input>
+</view>
+<view class="cc">
+  <image class="aa" src="/images/write.png"></image>
+  <textarea class="bb" placeholder="备注" name="write" value="{{write}}"></textarea>
+</view>
+<view class="btn-area">
+      <button formType="submit">提交</button>
+      <button formType="reset">清空</button>
+    </view>
+  </form>
+
+  <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+    {{notice_str}}
+  </toast>
+
+
+
+  <view class="page__bd">
+    <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="confirm_one" bindcancel="cancel_one">
+      确认提交么？
+    </modal>
+    <modal class="modal" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2" bindcancel="modalChange2">
+      <view> 提示 </view>
+      <view> 清空成功 </view>
+    </modal>
+  </view>
+
+ 
+

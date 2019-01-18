@@ -1,0 +1,10 @@
+App({
+url1:[
+    "order-cloth/order-cloth",
+    "order-trousers/order-trousers",
+    "order-shoes/order-shoes",
+    "order-bags/order-bags",
+    "order-books/order-books",
+    "order-others/order-others"
+  ]
+})

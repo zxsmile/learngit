@@ -1,0 +1,17 @@
+
+<template name="template3">
+<view class="position">
+ <image src="/images/position3.jpg" class="image"></image>
+ <view class="absolute">
+ <block wx:for="{{juanzhuData_key}}" wx:for-item="item">
+ <view class='divline'></view>
+ <view class="image-time">
+  <image class="ju-wu" src="{{item.wupin}}"></image>
+  <text class="date">{{item.dateTime}}</text>
+  </view>
+  <text class="ju-wuming">{{item.wuming}}</text>
+   <view class='divline'></view>
+ </block>
+</view>
+</view>
+</template>

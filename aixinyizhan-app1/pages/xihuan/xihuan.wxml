@@ -1,0 +1,14 @@
+<view class="position">
+ <image src="/images/position1.png" class="image"></image>
+ <view class="absolute">
+ <block wx:for="{{HomePageData_key}}" wx:for-item="item">
+ <view class='divline'></view>
+ <view class="image-time">
+
+  <text class="date">{{item.date}}</text>
+  </view>
+  <text class="ju-wuming">{{item. content}}</text>
+   <view class='divline'></view>
+ </block>
+</view>
+</view>

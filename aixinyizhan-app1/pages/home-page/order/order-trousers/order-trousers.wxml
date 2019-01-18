@@ -1,0 +1,54 @@
+<view class="content">
+  <image src="/images/trousers.jpg" class="image"></image>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="box">
+      <text class="quest">请选择衣服适合性别：</text>
+      <radio-group class="radio-group" bindchange="radioChange">
+        <label class="radio" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+
+    </view>
+
+
+    <view class="box">
+      <text class="quest">请选择衣服适合年龄：</text>
+      <checkbox-group bindchange="checkboxChange" class="checkbox1">
+        <label class="checkbox" wx:for="{{item}}">
+          <checkbox value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </checkbox-group>
+    </view>
+
+
+
+    <view class="box">
+      <text class="quest">请填写上门收裤子时间</text>
+      <view class="time">
+        <input type="text" placeholder='2018-1-1' placeholder-class='place' value="{{time}}"/>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button formType="submit">提交</button>
+      <button formType="reset">清空</button>
+    </view>
+  </form>
+
+  <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+    {{notice_str}}
+  </toast>
+
+
+
+  <view class="page__bd">
+    <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="confirm_one" bindcancel="cancel_one">
+      确认提交么？
+    </modal>
+    <modal class="modal" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2" bindcancel="modalChange2">
+      <view> 提示 </view>
+      <view> 清空成功 </view>
+    </modal>
+  </view>
+
+</view>

@@ -1,0 +1,19 @@
+.image-name{
+  display: flex;
+  flex-direction: column;
+  margin: 60rpx 80rpx 20rpx 80rpx;
+  vertical-align: middle;
+
+}
+.image{
+  height:80rpx;
+  width:80rpx;
+  vertical-align: middle;
+}
+.name{
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20rpx;
+  vertical-align: middle;
+  text-align: center
+}

@@ -1,0 +1,26 @@
+<view>
+  <swiper autoplay='true' interval='5000' indicator-dots='true'>
+    <swiper-item>
+      <image src="/images/aixin4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/aixin3.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/aixin11.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{HomePage_key}}" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onPostTap" data-HomePageId="{{item.HomePageId}}">
+      <view class="continer">
+        <view class="HeadDate">
+          <image src="{{item.HeadImage}}" class="HeadImage"></image>
+          <text class="date">{{item.date}}</text>
+        </view>
+        <text class="title">{{item.title}}</text>
+        <image src="{{item.Image}}" class="image"></image>
+        <text class="content">{{item.content}}</text>
+      </view>
+    </view>
+  </block>
+</view>

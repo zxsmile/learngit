@@ -1,0 +1,49 @@
+.ju-wu{
+  width:60rpx;
+  height:60rpx;
+  margin-left:20rpx;
+}
+.ju-wuming{
+  font-size:26rpx;
+  font-weight:500;
+  margin-left: 100rpx;
+  vertical-align:middle;
+  margin-bottom: 30rpx;
+  color:black;
+}
+.date{
+  font-size:26rpx;
+ font-weight: 600;
+  margin-left:30rpx;
+  vertical-align:middle;
+    margin-top: 15rpx;
+
+}
+
+.image-time{
+  display:flex;
+  flex-direction: row;
+  margin: 50rpx 0 20rpx 10rpx; 
+}
+.divline{
+  width: 100%;
+  height: 1rpx;
+  background: #2f2f2f17;
+  margin-top: 20rpx;
+   
+   
+}
+.image{
+    position:absolute;
+    height:100%;
+    width:100%
+}
+.position{
+   position:relative;
+   width: 100%;
+   height: 2000rpx;
+}
+.absolute{
+  position:absolute;
+
+}

@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home-page/home-page",
+    "pages/home-page/detail/detail",
+    "pages/home-page/order/order",
+    "pages/home-page/feedback/feedback",
+    "pages/mine/mine",
+    "pages/home-page/order/order-cloth/order-cloth",
+    "pages/home-page/order/order-trousers/order-trousers",
+    "pages/home-page/order/order-shoes/order-shoes",
+    "pages/home-page/order/order-bags/order-bags",
+    "pages/home-page/order/order-books/order-books",
+    "pages/home-page/order/order-others/order-others",
+    "pages/biao/biao",
+    "pages/juanzhu/juanzhu",
+    "pages/xihuan/xihuan",
+    "pages/jiyu/jiyu",
+    "pages/index/index"
+  ],
+
+  "window": {
+    "navigationBarBackgroundColor": "#DC143C"
+
+  },
+
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home-page/home-page",
+        "text": "首页",
+        "iconPath": "images/home-unti.png",
+        "selectedIconPath": "images/home.png"
+      },
+      {
+        "pagePath": "pages/home-page/order/order",
+        "text": "预订",
+        "iconPath": "images/order.png",
+        "selectedIconPath": "images/order-unti.png"
+      },
+      {
+        "pagePath":"pages/home-page/feedback/feedback",
+        "text": "反馈",
+        "iconPath":"images/feedback-unti.jpg",
+       "selectedIconPath": "images/feedback-unti.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人中心",
+        "iconPath": "images/person.png",
+      "selectedIconPath": "images/person-unti.png"
+      }
+    ]
+  }
+  
+  
+  
+}

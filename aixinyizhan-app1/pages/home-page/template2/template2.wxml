@@ -1,0 +1,8 @@
+<import src="../template1/template1.wxml" />
+<template name="template2">
+<block wx:for="{{orderPageData_key}}" wx:for-item="item">
+<view class="template2" data-orderId="{{item.orderId}}"  catchtap='oncatchTap'>
+<template is="template1" data="{{...item}}"></template>
+</view>
+</block>
+</template>

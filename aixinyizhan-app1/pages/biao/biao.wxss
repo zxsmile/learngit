@@ -1,0 +1,36 @@
+.aa{
+  width:60rpx;
+  height:60rpx;
+  margin-left:20rpx;
+}
+.zz{
+  width:85%;
+  float:right;
+  height:20rpx;
+  margin-right:20rpx;
+   border: solid;
+  border-color:rgb(243, 241, 241); 
+}
+.bb{
+  
+  width:85%;
+  float:right;
+  margin-right:20rpx;
+  margin-bottom: 20rpx;
+    border: solid;
+  border-color:rgb(243, 241, 241); 
+}
+.cc{
+  margin-top:50rpx;
+  margin-bottom: 50rpx;
+}
+.btn-area{
+  margin: 120rpx;
+}
+
+button{
+  margin: 20px;
+  background:white;
+
+}
+

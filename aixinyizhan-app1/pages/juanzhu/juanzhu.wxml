@@ -1,0 +1,7 @@
+<import src="../template3/template3.wxml" />
+<view class="container">
+<view class="oo">
+    <template is="template3" data="{{juanzhuData_key}}" />
+   </view>    
+    
+</view>

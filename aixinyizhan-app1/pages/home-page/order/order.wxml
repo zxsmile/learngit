@@ -1,0 +1,18 @@
+<import src="../template2/template2.wxml" />
+
+<view class="content">
+  <swiper autoplay='true' interval='5000' indicator-dots='true'>
+    <swiper-item>
+      <image src="/images/huishou.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/book.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/close6.jpg"></image>
+    </swiper-item>
+  </swiper>
+  <view class="template2" >
+  <template is="template2" data="{{orderPageData_key}}" />
+  </view>
+  </view>

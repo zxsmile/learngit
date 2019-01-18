@@ -1,0 +1,43 @@
+<view class="feedback">
+  <image src="/images/feed.jpg" class="headimage"></image>
+
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="image-text">
+      <image src="/images/feedback1.png" class="image"></image>
+      <text class="quest">您对我们这个小程序的意见反馈：</text>
+    </view>
+    <view class="time">
+      <textarea name="evaContent" maxlength="500" value="{{evaContent}}" class="weui-textarea" placeholder="" bindblur="charChange" />
+    </view>
+    <view class="image-text">
+      <image src="/images/feedback1.png" class="image"></image>
+      <text class="quest">对被捐助者的寄语：</text>
+    </view>
+    <view class="time">
+      <textarea name="aveContent" maxlength="500" value="{{aveContent}}" class="weui-textarea" placeholder="" bindblur="charChange" />
+    </view>
+
+
+    <view class="btn-area">
+      <button formType="submit">提交</button>
+      <button formType="reset">清空</button>
+    </view>
+  </form>
+
+  <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+    {{notice_str}}
+  </toast>
+
+
+
+  <view class="page__bd">
+    <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" bindconfirm="confirm_one" bindcancel="cancel_one">
+      确认提交么？
+    </modal>
+    <modal class="modal" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2" bindcancel="modalChange2">
+      <view> 提示 </view>
+      <view> 清空成功 </view>
+    </modal>
+  </view>
+
+</view>
