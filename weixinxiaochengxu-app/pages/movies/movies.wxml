@@ -1,0 +1,22 @@
+<import src="movie-list/movie-list-template.wxml" />
+<import src="movie-grid/movie-grid-template.wxml" />
+<view class="search">
+<icon type="search" class="search-img" size="13" color="#405f80"></icon>
+<input type="text" placeholder='反贪风暴3、杀破狼贪狼' placeholder-class='placeholder' bindfocus='onBindFocus' bindblur="onBindBlur" />
+<image wx:if="{{searchPanelShow}}" src="/images/xx.png" bindtap="onCancelImageTap" class="xx-img"></image>
+</view>
+<view class="container" wx:if="{{containerShow}}">
+  <view class="movies-template">
+    <template class="movies-template" is="movieListTemplate" data="{{...inTheaters}}" />
+  </view>
+  <view class="movies-template">
+    <template class="movies-template" is="movieListTemplate" data="{{... comingSoon}}" />
+  </view>
+  <view class="movies-template">
+      <template class="movies-template" is="movieListTemplate" data="{{...sell}}" />
+  </view>
+  </view>
+
+  <view class="search-panel" wx:if="{{ searchPanelShow}}">
+  <template is="movieGridTemplate" data="{{...searchResult}}" />
+  </view>

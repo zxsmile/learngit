@@ -1,0 +1,28 @@
+<view>
+  <swiper catchtap="onSwiperTap" indicator-dots='ture' autoplay='ture' interval='5000'>
+    <swiper-item>
+      <image src="/images/timg32.jpg" data-postId="1"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/56.jpg"  data-postId="2"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/house1.jpg" data-postId="0"></image>
+    </swiper-item>
+  </swiper>
+  <block wx:for="{{post_key}}" wx:for-item="item" wx:for-index="idx">
+  <view catchtap="onPostTap" data-postId="{{item.postId}}">
+    <view class="post-container">
+      <view class="post-date">
+        <image src="{{item.avatar}}" class="post-image"></image>
+        <text class="date">{{item.date}}</text>
+      </view>
+      <text class="title">{{item.title}}</text>
+      <image src="{{item.imgSrc}}" class="image"></image>
+      <view class="post-content">
+        <text class="content">{{item.content}}</text>
+      </view>
+    </view>
+    </view>
+  </block>
+</view>
